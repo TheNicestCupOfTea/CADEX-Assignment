@@ -100,6 +100,7 @@ namespace Curves {
     };
 
     #ifdef DLLBuild
+        //An actual table of pointers to functions to use in DLL.
         static struct func_table table = {
             &createRandomCurves,
             &getCurvePointers,
@@ -110,6 +111,7 @@ namespace Curves {
             &computeSumOfCirclesRadii
         };
 
+        //A function to get the function table.
         DLLExport struct func_table *getFuncTable(void) {
             return &table;
         }

@@ -1,5 +1,5 @@
 ﻿cmake_minimum_required(VERSION 3.10)
 project(Main VERSION 1.0)
-include_directories("${PROJECT_SOURCE_DIR}/Lib")
-add_subdirectory(Lib)
+add_library(Curves SHARED "DllEntryPoint.cpp" "Curves.cpp")
 add_executable(Main "Main.cpp")
+target_link_libraries(Main Curves)
