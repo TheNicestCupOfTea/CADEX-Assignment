@@ -243,6 +243,7 @@ namespace Curves {
         #pragma omp parallel for reduction(+:sum)
         for (Circle* oneCircle : inCircles) {
             sum += oneCircle->getRadius();
+            //std::cout << omp_get_thread_num() << std::endl;
         }
         return sum;
     };
