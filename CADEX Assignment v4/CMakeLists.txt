@@ -1,0 +1,5 @@
+﻿cmake_minimum_required(VERSION 3.10)
+project(Main VERSION 1.0)
+include_directories("${PROJECT_SOURCE_DIR}/Lib")
+add_subdirectory(Lib)
+add_executable(Main "Main.cpp")
