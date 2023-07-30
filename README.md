@@ -1,5 +1,4 @@
 # CADEX Assignment
-The solution for a test assignment.
 
 # Requirements:
 Design a small program in C++ that would implement support of 3D curves hierarchy.
