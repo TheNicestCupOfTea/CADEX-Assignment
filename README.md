@@ -22,7 +22,7 @@ TBB library).
 
 
 
-# Project desciption
+# Project description
 This project satisfies all given requrements. 
 
 The project compiles two files:
