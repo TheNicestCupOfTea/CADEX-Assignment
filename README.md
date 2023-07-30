@@ -29,7 +29,7 @@ The project compiles two files:
 The dynamic library that provides classes and functions to work with curves.
 * Curves.cpp - Defines classes of curves and interface functions to work with them.
 * Curves.h - Header file for Curves.cpp, provides names of classes and DLL interface functions.
-* DllEntryPoint.cpp - An important bit of code for compiling the DLL.
+* DllEntryPoint.cpp - A necessary bit of code for compiling the DLL.
    
 ## Main.exe 
 Main executable, uses Curves.dll to do given tasks.
