@@ -24,6 +24,8 @@ extern "C" {
 // A library for curves.
 namespace Curves {
 
+    //============= CLASSES =============
+
     // A class to hold data of a 3D point.
     // Has X,Y,Z coordinates.
     class DLLExport Point3D;
@@ -62,6 +64,8 @@ namespace Curves {
     // It is built on a circle curve with an added Z step.
     class DLLExport Helix3D;
 
+    //============= FUNCTIONS =============
+
     // Create a vector of unique pointers to randomly generated curves.
     DLLExport std::vector<std::unique_ptr<Curve>> createRandomCurves(int inAmount);
 
@@ -88,7 +92,7 @@ namespace Curves {
 
     //===================== FUNCTION TABLE ==========================
 
-    //A table of all DLL functions
+    //A definition for a table of all DLL functions
     struct func_table {
         std::vector<std::unique_ptr<Curve>> (*createRandomCurves)(int);
         std::vector<Curve*> (*getCurvePointers)(std::vector<std::unique_ptr<Curve>>& inCurves);
