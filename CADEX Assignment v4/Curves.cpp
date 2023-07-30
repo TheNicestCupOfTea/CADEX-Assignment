@@ -113,7 +113,7 @@ namespace Curves {
     public:
         void set(double inRadius, double inStep) {
             step = inStep;
-            circle = Circle(inRadius);
+            circle.set(inRadius);
         }
 
         Helix3D(
