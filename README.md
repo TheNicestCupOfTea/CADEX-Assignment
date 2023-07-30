@@ -20,9 +20,11 @@ library.
 8. Implement computation of the total sum of radii using parallel computations (e.g. OpenMP or Intel
 TBB library).
 
+
+
+# Project desciption
 This project satisfies all given requrements. 
 
-# Build targets
 The project compiles two files:
 ## Curves.dll 
 The dynamic library that provides classes and functions to work with curves.
