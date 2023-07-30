@@ -19,7 +19,13 @@ library.
 8. Implement computation of the total sum of radii using parallel computations (e.g. OpenMP or Intel
 TBB library).
 
-
+Requirements to the implementation:
+1. The implementation must use virtual methods.
+2. Has neither explicit memory deallocation nor memory leaks.
+3. Curves must be physically correct (e.g. radii must be positive).
+4. Containers and sorting must be implemented using STL (C++ Standard Template Library).
+5. The implementation may use constructs of C++11 or higher.
+6. The code must compile with any compiler of your choice (gcc, Visual C++, etc).
 
 # Project description
 This project satisfies all given requrements. 
