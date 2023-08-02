@@ -50,6 +50,7 @@ namespace Curves {
             double t
         ) const = 0;
         virtual CurveType getType() const = 0;
+        virtual ~Curve() {}
     };
 
     // A class to define a ellipse-type curve.
